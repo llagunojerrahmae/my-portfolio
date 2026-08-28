@@ -1,17 +1,34 @@
-# Personal Portfolio Website
+# MY LARAVEL WEBSITE PORTFOLIO
 
-This repository contains my Preliminary Project submission built using the Laravel framework. It showcases my personal portfolio, projects, and web development skills.
+Welcome to my personal portfolio repository! This web application is developed as part of my **Prelim Requirement**. It highlights my web development projects, personal skill set, and my background as a developer.
 
-## 🚀 Tech Stack
-* **Framework:** Laravel
+
+## PROJECT DETAILS
+
+* **Backend:** PHP / Laravel Framework
+* **Frontend:** HTML5, CSS3, JavaScript, Laravel Blade
 * **Database:** SQLite
-* **Frontend:** HTML5, CSS3, JavaScript, Blade Templates
+* **Version Control:** Git & GitHub
 
-## 🛠️ Installation and Setup Guide
 
-To run this project locally on your machine, follow these steps:
+## SET-UP INSTRUCTIONS
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/llagunojerrahmae/my-portfolio.git](https://github.com/llagunojerrahmae/my-portfolio.git)
-   cd my-portfolio
+If you would like to test or view this project on your local machine, run the following commands in order:
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/llagunojerrahmae/my-portfolio.git](https://github.com/llagunojerrahmae/my-portfolio.git)
+cd my-portfolio
+
+# 2. Install PHP dependencies
+composer install
+
+# 3. Set up the environment file & key
+cp .env.example .env
+php artisan key:generate
+
+# 4. Run database migrations
+php artisan migrate
+
+# 5. Start the local development server
+php artisan serve
