@@ -246,7 +246,7 @@
                         <i class="fa-solid fa-hand-sparkles mr-1"></i> WELCOME TO MY PORTFOLIO
                     </p>
                     <h1 class="font-serif text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-                        Hi, I'm <span class="gradient-text">Jerrah Mae Llaguno</span>
+                        Hi, I'm <span class="gradient-text">Jerrah Mae Llaguno!</span>
                     </h1>
                     <h2 class="font-serif text-text-gray text-lg font-medium tracking-wide mb-6">
                         3RD YEAR IT STUDENT | DEVELOPER
@@ -412,7 +412,7 @@
                     <i class="card-icon fa-solid fa-arrows-rotate text-accent-pink text-2xl mb-3"></i>
                     <h3 class="font-serif font-semibold mb-1">Adaptability</h3>
                     <p class="text-text-gray text-sm">Open to learning new tools and adjusting quickly to new environments or requirements.</p>
-                </div>
+               </div>
 
                 <div class="glow-card bg-dark-surface rounded-xl p-6 border border-white/5">
                     <i class="card-icon fa-solid fa-clock text-accent-pink text-2xl mb-3"></i>
